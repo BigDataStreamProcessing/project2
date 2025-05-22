@@ -62,8 +62,17 @@ Należy zatem zadbać o usunięcie i ponowne utworzenie tematów *Kafki*, miejsc
 6. Skrypt odczytujący wyniki z miejsca docelowego
 7. Sprawozdanie, które ma mieć charakter szczegółowych instrukcji dla osób korzystających z powyższych skryptów. Uwzględnij fakt, że kwestie oczywiste dla Ciebie nie muszą być oczywiste dla innych. Zadbaj o szczegóły i wyjaśnienia.
 
+## Platforma uruchomieniowa 
+
+Projekty muszą być zaimplementowane i możliwe do uruchomienia w jednym z wybranych miejsc:
+- platforma `Dataproc` 
+- lokalna platforma `Docker` oparta na jednej ze wskazanych w sprawozdaniu konfiguracji opisanych w zestawach zadań
+
+Konieczne jest, aby w sprawozdaniu opisać sposób przygotowania platformy uruchomieniowej/testowej, a następnie jej użycia przy uruchamianiu poszczególnych komponentów projektu.
+
 ## Źródłowe zbiory danych
 Wszystkie zbiory danych pobieramy z miejsca wskazanego na stronie kursu, niezależnie od ich oryginalnego źródła pochodzenia. 
+
 
 ## Kilka wskazówek
 1. Nie uruchamiaj początkowych wersji programów na pełnym zbiorze danych. Postaraj się sprawdzić swoje rozwiązania na próbce danych, najlepiej tak przygotowanej aby znać oczekiwane wyniki i móc je porównać.<br>
