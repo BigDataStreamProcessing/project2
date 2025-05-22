@@ -66,7 +66,7 @@ Należy zatem zadbać o usunięcie i ponowne utworzenie tematów *Kafki*, miejsc
 
 Projekty muszą być zaimplementowane i możliwe do uruchomienia w jednym z wybranych miejsc:
 - platforma `Dataproc` 
-- lokalna platforma `Docker` oparta na jednej ze wskazanych w sprawozdaniu konfiguracji opisanych w zestawach zadań
+- lokalna platforma `Docker` oparta na jednej ze wskazanych w sprawozdaniu konfiguracji opisanej w zestawach zadań
 
 Konieczne jest, aby w sprawozdaniu opisać sposób przygotowania platformy uruchomieniowej/testowej, a następnie jej użycia przy uruchamianiu poszczególnych komponentów projektu.
 
