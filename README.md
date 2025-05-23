@@ -70,6 +70,10 @@ Projekty muszą być zaimplementowane i możliwe do uruchomienia w jednym z wybr
 
 Konieczne jest, aby w sprawozdaniu opisać sposób przygotowania platformy uruchomieniowej/testowej, a następnie jej użycia przy uruchamianiu poszczególnych komponentów projektu.
 
+## Sposoby uruchomienia 
+
+W zależności od wykorzystywanego w ramach projektu silnika wymagane są różne sposoby obsługi końcowych projektów 
+
 - Dla *Spark Structured Streaming* projekty muszą być możliwe do uruchomienia na klastrze Hadoop jako aplikacja YARN
 ```
 spark-submit ... 
