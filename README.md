@@ -83,9 +83,9 @@ spark-submit ...
 java -cp ...
 ```
 - Dla *Apache Flink* projekty mogą być uruchamiane w jednym z trzech wariantów 
-    - na klastrze Hadoop jako aplikacja YARN `./bin/flink run -t yarn-application`
-    - na klastrze Flinka (*standalone*) `./bin/flink run`
-    - w środowisku lokalnym `./bin/flink run -target local` (uwzględniając uruchamianie w ramach środowiska IDE) - ta opcja dostępna jest tylko w przypadku projektów implementowanych w Pythonie 
+    - na klastrze Hadoop jako aplikacja YARN `./bin/flink run -target yarn-application`
+    - na klastrze Flinka (*standalone*) `./bin/flink run [-target remote]`
+    - w środowisku lokalnym `./bin/flink run -target local` (uwzględniając w tym uruchamianie w ramach środowiska IDE) - ta opcja dostępna jest tylko w przypadku projektów implementowanych w Pythonie 
 
 ## Źródłowe zbiory danych
 Wszystkie zbiory danych pobieramy z miejsca wskazanego na stronie kursu, niezależnie od ich oryginalnego źródła pochodzenia. 

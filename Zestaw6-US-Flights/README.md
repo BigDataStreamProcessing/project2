@@ -40,8 +40,7 @@ Plik `flights-2015.zip` to zbiór plików mających format `csv` i następujące
 
 *Uwaga. Podane czasy wylotu oraz przylotu są zgodne z czasem na lotniskach startowym i docelowym. Aby przykładowo wyliczyć czas lotu należy uwzględnić strefy czasowe lotnisk.*
 
-
-Załóż, że dane mogą być **nieuporządkowane** – mogą być opóźnione o **5 minut**. 
+Załóż, że dane mogą być **nieuporządkowane** (pod względem `orderColumn`) – mogą być opóźnione o **5 minut**. 
 
 ### Statyczny 
 Plik `airports.csv` zawiera następujące pola:
