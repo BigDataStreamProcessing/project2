@@ -9,7 +9,7 @@ Dane zawierają informacje lotach samolotów zebrane przez Biuro Statystyki Tran
 Wykorzystywane są dwa zbiory danych.
 
 ### Strumień danych
-Plik `flights.zip` to zbiór plików mających format `csv` i następujące pola:
+Plik `flights-2015.zip` to zbiór plików mających format `csv` i następujące pola:
 
 - `airline` – symbol linii lotniczych  
 - `flightNumber` – numer lotu  
