@@ -70,6 +70,19 @@ Projekty muszą być zaimplementowane i możliwe do uruchomienia w jednym z wybr
 
 Konieczne jest, aby w sprawozdaniu opisać sposób przygotowania platformy uruchomieniowej/testowej, a następnie jej użycia przy uruchamianiu poszczególnych komponentów projektu.
 
+- Dla *Spark Structured Streaming* projekty muszą być możliwe do uruchomienia na klastrze Hadoop jako aplikacja YARN
+```
+spark-submit ... 
+```
+- Dla *Kafka Streams* projekty muszą być możliwe do uruchomienia na klastrze *Apache Kafka*
+```
+java -cp ...
+```
+- Dla *Apache Flink* projekty mogą być uruchamiane w jednym z trzech wariantów 
+    - na klastrze Hadoop jako aplikacja YARN `./bin/flink run -t yarn-application`
+    - na klastrze Flinka (*standalone*) `./bin/flink run`
+    - w środowisku lokalnym `./bin/flink run -target local` (uwzględniając uruchamianie w ramach środowiska IDE)
+
 ## Źródłowe zbiory danych
 Wszystkie zbiory danych pobieramy z miejsca wskazanego na stronie kursu, niezależnie od ich oryginalnego źródła pochodzenia. 
 
