@@ -17,7 +17,7 @@ Plik `bicycle_result.zip` to zbiór plików mających format `csv` i następują
 - `trip_id` – identyfikator przejazdu
 - `start_stop` – czy rozpoczęcie (`0`) czy zakończenie (`1`) przejazdu
 - `event_time` – etykieta czasowa zdarzenia
-- `station_id` – identyfikator strefy taksówek
+- `station_id` – identyfikator stacji
 - `trip_duration` – czas trwania przejazdu (`0` dla rozpoczęcia przejazdu)
 - `user_type` – typ użytkownika
 - `gender` – płeć użytkownika
