@@ -98,6 +98,6 @@ java -Dpreview=true -jar generator-xxx-1.0-SNAPSHOT.jar \
 | gielda          | gielda-ticki              | contractId     |
 
 ## Konfiguracja anomalii
-Każdy generator obsługuje parametr `generator.anomaly.probability` (0.0–1.0) </br>
-w `application.properties`. Domyślnie 3–8% zdarzeń to anomalie (typ i opis w Javadoc klasy `*Event`).
+Każdy generator obsługuje parametr `generator.anomaly.probability` (0.0–1.0) w `application.properties`. <br>
+Domyślnie 3–8% zdarzeń to anomalie (typ i opis w Javadoc klasy `*Event`).
 
