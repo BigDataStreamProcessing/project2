@@ -40,8 +40,8 @@ mvn install -DskipTests
 > Budowanie jest wymagane przed pierwszym uruchomieniem `mvn exec:java`.
 
 W wyniku budowania tworzone są dwa pliki jar
-* generator-*-1.0-SNAPSHOT.jar — tzw. fat JAR
-* original-generator-*-1.0-SNAPSHOT.jar — standardowy JAR bez zależności
+* `generator-*-1.0-SNAPSHOT.jar` — tzw. fat JAR
+* `original-generator-*-1.0-SNAPSHOT.jar` — standardowy JAR bez zależności
 
 ## Uruchamianie
 
@@ -98,6 +98,6 @@ java -Dpreview=true -jar generator-xxx-1.0-SNAPSHOT.jar \
 | gielda          | gielda-ticki              | contractId     |
 
 ## Konfiguracja anomalii
-Każdy generator obsługuje parametr `generator.anomaly.probability` (0.0–1.0)
+Każdy generator obsługuje parametr `generator.anomaly.probability` (0.0–1.0) </br>
 w `application.properties`. Domyślnie 3–8% zdarzeń to anomalie (typ i opis w Javadoc klasy `*Event`).
 
