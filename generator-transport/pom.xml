@@ -5,7 +5,7 @@
              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>pl.edu.bdsp</groupId>
+        <groupId>com.example.bigdata</groupId>
         <artifactId>projekt2-zestawy</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
