@@ -1,0 +1,18 @@
+[
+  { "contractId":"WHT-MAY25","commodity":"Pszenica","exchange":"MATIF","currency":"EUR",
+    "unit":"t","tickSizeEUR":0.25,"lotSizeT":50,"harvestMonth":"JUL",
+    "mainExporters":["Russia","Ukraine","USA","Canada"],
+    "typicalPriceRangeMin":180,"typicalPriceRangeMax":320 },
+  { "contractId":"CRN-MAY25","commodity":"Kukurydza","exchange":"CBOT","currency":"USD",
+    "unit":"bu","tickSizeUSD":0.25,"lotSizeT":127,"harvestMonth":"OCT",
+    "mainExporters":["USA","Argentina","Brazil"],
+    "typicalPriceRangeMin":3.5,"typicalPriceRangeMax":7.5 },
+  { "contractId":"RPE-AUG25","commodity":"Rzepak","exchange":"MATIF","currency":"EUR",
+    "unit":"t","tickSizeEUR":0.50,"lotSizeT":50,"harvestMonth":"AUG",
+    "mainExporters":["Canada","Australia","Ukraine"],
+    "typicalPriceRangeMin":380,"typicalPriceRangeMax":680 },
+  { "contractId":"SOY-JUL25","commodity":"Soja","exchange":"CBOT","currency":"USD",
+    "unit":"bu","tickSizeUSD":0.25,"lotSizeT":136,"harvestMonth":"NOV",
+    "mainExporters":["Brazil","USA","Argentina"],
+    "typicalPriceRangeMin":9.0,"typicalPriceRangeMax":17.0 }
+]

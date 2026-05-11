@@ -1,0 +1,7 @@
+[
+  { "stationId":"AIR-WAW-001","name":"Warszawa Ursynow",  "lat":52.1672,"lon":21.0333,"district":"Ursynow",  "stationType":"URBAN_TRAFFIC"     },
+  { "stationId":"AIR-WAW-002","name":"Warszawa Wola",     "lat":52.2369,"lon":20.9817,"district":"Wola",     "stationType":"URBAN_BACKGROUND"   },
+  { "stationId":"AIR-KRK-001","name":"Krakow Al.Krasins.","lat":50.0574,"lon":19.9264,"district":"Srodmiescie","stationType":"URBAN_TRAFFIC"     },
+  { "stationId":"AIR-GDA-001","name":"Gdansk Wrzeszcz",  "lat":54.3797,"lon":18.6019,"district":"Wrzeszcz", "stationType":"SUBURBAN"           },
+  { "stationId":"AIR-WRO-001","name":"Wroclaw Bartnicza", "lat":51.1143,"lon":17.0336,"district":"Psie_Pole","stationType":"URBAN_BACKGROUND"   }
+]

@@ -1,0 +1,18 @@
+[
+  { "productId":"P001","name":"Laptop Dell XPS 15","category":"Elektronika","subcategory":"Komputery",
+    "basePricePLN":5499.00,"marginPercent":18,"weightKg":1.9,"fraudRiskScore":0.7 },
+  { "productId":"P002","name":"Słuchawki Sony WH-1000XM5","category":"Elektronika","subcategory":"Audio",
+    "basePricePLN":1299.00,"marginPercent":22,"weightKg":0.25,"fraudRiskScore":0.5 },
+  { "productId":"P003","name":"Kurtka zimowa Gore-Tex","category":"Odzież","subcategory":"Kurtki",
+    "basePricePLN":799.00,"marginPercent":45,"weightKg":0.9,"fraudRiskScore":0.2 },
+  { "productId":"P004","name":"Ekspres do kawy DeLonghi","category":"AGD","subcategory":"Ekspresy",
+    "basePricePLN":2199.00,"marginPercent":28,"weightKg":8.5,"fraudRiskScore":0.3 },
+  { "productId":"P005","name":"Książka Wiedźmin","category":"Ksiazki","subcategory":"Fantasy",
+    "basePricePLN":49.90,"marginPercent":35,"weightKg":0.4,"fraudRiskScore":0.05 },
+  { "productId":"P006","name":"Smartwatch Apple Watch S9","category":"Elektronika","subcategory":"Wearables",
+    "basePricePLN":2199.00,"marginPercent":20,"weightKg":0.05,"fraudRiskScore":0.6 },
+  { "productId":"P007","name":"Robot kuchenny Thermomix","category":"AGD","subcategory":"Kuchnia",
+    "basePricePLN":6499.00,"marginPercent":15,"weightKg":5.2,"fraudRiskScore":0.4 },
+  { "productId":"P008","name":"Buty Nike Air Max","category":"Obuwie","subcategory":"Sportowe",
+    "basePricePLN":599.00,"marginPercent":50,"weightKg":0.7,"fraudRiskScore":0.15 }
+]

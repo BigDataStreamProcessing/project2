@@ -1,0 +1,7 @@
+[
+  { "zoneId":"Z-A","name":"Strefa A – Centrum",       "capacity":200,"pricePerHourPLN":6.00,"maxStayHours":2, "type":"PAID",    "district":"Srodmiescie","distanceToCenterMinM":100,  "distanceToCenterMaxM":400   },
+  { "zoneId":"Z-B","name":"Strefa B – Srodmiescie",   "capacity":350,"pricePerHourPLN":4.00,"maxStayHours":4, "type":"PAID",    "district":"Srodmiescie","distanceToCenterMinM":400,  "distanceToCenterMaxM":900   },
+  { "zoneId":"Z-C","name":"Strefa C – Peryferia",     "capacity":500,"pricePerHourPLN":2.00,"maxStayHours":8, "type":"PAID",    "district":"Mokotow",    "distanceToCenterMinM":2000, "distanceToCenterMaxM":5000  },
+  { "zoneId":"Z-P","name":"Park & Ride",               "capacity":800,"pricePerHourPLN":1.00,"maxStayHours":12,"type":"P+R",     "district":"Ursynow",    "distanceToCenterMinM":8000, "distanceToCenterMaxM":14000 },
+  { "zoneId":"Z-H","name":"Parking szpitalny",         "capacity":150,"pricePerHourPLN":2.50,"maxStayHours":24,"type":"HOSPITAL","district":"Wola",       "distanceToCenterMinM":2500, "distanceToCenterMaxM":4500  }
+]

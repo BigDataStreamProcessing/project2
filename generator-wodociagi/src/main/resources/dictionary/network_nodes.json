@@ -1,0 +1,10 @@
+[
+  { "nodeId":"W-PUMP-01","type":"PUMP_STATION","zone":"A","nominalFlowM3h":450,"nominalPressureBar":5.5,"diameterMm":400,"district":"Srodmiescie" },
+  { "nodeId":"W-PUMP-02","type":"PUMP_STATION","zone":"B","nominalFlowM3h":320,"nominalPressureBar":5.2,"diameterMm":350,"district":"Wola" },
+  { "nodeId":"W-NODE-01","type":"JUNCTION",    "zone":"A","nominalFlowM3h":120,"nominalPressureBar":4.8,"diameterMm":200,"district":"Srodmiescie" },
+  { "nodeId":"W-NODE-02","type":"JUNCTION",    "zone":"A","nominalFlowM3h":95, "nominalPressureBar":4.6,"diameterMm":150,"district":"Mokotow" },
+  { "nodeId":"W-NODE-03","type":"JUNCTION",    "zone":"B","nominalFlowM3h":80, "nominalPressureBar":4.9,"diameterMm":150,"district":"Wola" },
+  { "nodeId":"W-NODE-04","type":"JUNCTION",    "zone":"C","nominalFlowM3h":60, "nominalPressureBar":4.5,"diameterMm":100,"district":"Ursynow" },
+  { "nodeId":"W-TOWER-01","type":"WATER_TOWER","zone":"A","nominalFlowM3h":200,"nominalPressureBar":6.0,"diameterMm":500,"district":"Praga" },
+  { "nodeId":"W-METER-01","type":"CONSUMER",   "zone":"C","nominalFlowM3h":12, "nominalPressureBar":3.5,"diameterMm": 50,"district":"Ursynow" }
+]

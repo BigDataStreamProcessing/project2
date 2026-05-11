@@ -1,0 +1,17 @@
+[
+  { "lineId": "L001", "name": "Centrum – Lotnisko",  "type": "BUS",
+    "stops": ["Dworzec Centralny","Rondo ONZ","Al. Jerozolimskie","Lotnisko T1","Lotnisko T2"],
+    "scheduledIntervalMin": 10, "normalSpeedKmh": 42 },
+  { "lineId": "L002", "name": "Stare Miasto – Ursynow", "type": "BUS",
+    "stops": ["Stare Miasto","Centrum","Mokotow","Ursynow P+R"],
+    "scheduledIntervalMin": 8,  "normalSpeedKmh": 35 },
+  { "lineId": "T001", "name": "Tramwaj – os. Wola",    "type": "TRAM",
+    "stops": ["Wola","Hala Mirowska","Srodmiescie","Nowy Swiat"],
+    "scheduledIntervalMin": 6,  "normalSpeedKmh": 28 },
+  { "lineId": "T002", "name": "Tramwaj – Praga",       "type": "TRAM",
+    "stops": ["Praga N","Most Slasko-Dabrowski","Centrum","Wola"],
+    "scheduledIntervalMin": 7,  "normalSpeedKmh": 26 },
+  { "lineId": "M001", "name": "Metro linia M1",        "type": "METRO",
+    "stops": ["Kabaty","Ursynow","Wilanowska","Sluzew","Politechnika","Centrum","Ratusz","Trocka"],
+    "scheduledIntervalMin": 4,  "normalSpeedKmh": 60 }
+]

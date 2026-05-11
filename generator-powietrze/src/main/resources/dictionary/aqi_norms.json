@@ -1,0 +1,14 @@
+{
+  "pm25": [
+    { "level":"Dobry",        "min":0,   "max":12,  "aqi":0,  "color":"#00E400" },
+    { "level":"Umiarkowany",  "min":12,  "max":35,  "aqi":51, "color":"#FFFF00" },
+    { "level":"Niezdrowy_wrazliwi","min":35,"max":55,"aqi":101,"color":"#FF7E00" },
+    { "level":"Niezdrowy",    "min":55,  "max":150, "aqi":151,"color":"#FF0000" },
+    { "level":"BardzoNiezdrowy","min":150,"max":250,"aqi":201,"color":"#8F3F97" },
+    { "level":"Hazardous",    "min":250, "max":9999,"aqi":301,"color":"#7E0023" }
+  ],
+  "pm10Limit24hEU": 50,
+  "no2LimitAnnualEU": 40,
+  "o3LimitMax8hEU": 120,
+  "coLimit8hEU": 10
+}

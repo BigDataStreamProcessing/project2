@@ -1,0 +1,17 @@
+[
+  { "machineId":"CNC-001","name":"Centrum obróbcze CNC","type":"CNC_MILL",
+    "nominalRpm":3000,"nominalCurrentA":45,"vibrationWarnMms":4.5,"vibrationAlarmMms":8.0,
+    "tempWarnC":75,"tempAlarmC":90,"productionLine":"L1","plannedMaintenanceDays":30 },
+  { "machineId":"CNC-002","name":"Tokarka CNC",         "type":"CNC_LATHE",
+    "nominalRpm":2500,"nominalCurrentA":38,"vibrationWarnMms":3.5,"vibrationAlarmMms":7.0,
+    "tempWarnC":70,"tempAlarmC":85,"productionLine":"L1","plannedMaintenanceDays":30 },
+  { "machineId":"ROB-001","name":"Robot spawalniczy ABB","type":"WELDING_ROBOT",
+    "nominalRpm":0,  "nominalCurrentA":80,"vibrationWarnMms":2.0,"vibrationAlarmMms":5.0,
+    "tempWarnC":65,"tempAlarmC":80,"productionLine":"L2","plannedMaintenanceDays":60 },
+  { "machineId":"PRS-001","name":"Prasa hydrauliczna",  "type":"HYDRAULIC_PRESS",
+    "nominalRpm":0,  "nominalCurrentA":120,"vibrationWarnMms":5.0,"vibrationAlarmMms":10.0,
+    "tempWarnC":60,"tempAlarmC":75,"productionLine":"L2","plannedMaintenanceDays":45 },
+  { "machineId":"CON-001","name":"Linia konwejera",     "type":"CONVEYOR",
+    "nominalRpm":1450,"nominalCurrentA":22,"vibrationWarnMms":3.0,"vibrationAlarmMms":6.0,
+    "tempWarnC":55,"tempAlarmC":70,"productionLine":"L3","plannedMaintenanceDays":90 }
+]

@@ -1,0 +1,8 @@
+[
+  { "stationId": "WAW-001", "name": "Warszawa Okecie",        "lat": 52.1657, "lon": 20.9671, "altitudeM": 107, "region": "mazowieckie", "climateZone": "Dfb" },
+  { "stationId": "KRK-001", "name": "Krakow Balice",          "lat": 50.0769, "lon": 19.7848, "altitudeM": 237, "region": "malopolskie",  "climateZone": "Dfb" },
+  { "stationId": "GDA-001", "name": "Gdansk Rebiechowo",      "lat": 54.3840, "lon": 18.4668, "altitudeM":  34, "region": "pomorskie",    "climateZone": "Cfb" },
+  { "stationId": "WRO-001", "name": "Wroclaw Strachowice",    "lat": 51.1069, "lon": 16.8858, "altitudeM": 120, "region": "dolnoslaskie", "climateZone": "Dfb" },
+  { "stationId": "POZ-001", "name": "Poznan Lawica",          "lat": 52.4210, "lon": 16.8263, "altitudeM":  83, "region": "wielkopolskie","climateZone": "Dfb" },
+  { "stationId": "ZAK-001", "name": "Zakopane",               "lat": 49.2992, "lon": 19.9496, "altitudeM": 844, "region": "malopolskie",  "climateZone": "Dfc" }
+]

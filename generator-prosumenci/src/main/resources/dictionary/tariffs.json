@@ -1,0 +1,31 @@
+[
+  {
+    "tariffCode": "G11",
+    "description": "Taryfa jednoczłonowa całodobowa",
+    "zones": [
+      { "name": "całą dobę", "hours": "00:00-24:00", "pricePerKwhPLN": 0.72 }
+    ],
+    "monthlyFixedFeePLN": 12.50,
+    "networkFeePLN": 0.28
+  },
+  {
+    "tariffCode": "G12",
+    "description": "Taryfa dwustrefowa dzienna/nocna",
+    "zones": [
+      { "name": "dzienna", "hours": "06:00-22:00", "pricePerKwhPLN": 0.85 },
+      { "name": "nocna",   "hours": "22:00-06:00", "pricePerKwhPLN": 0.48 }
+    ],
+    "monthlyFixedFeePLN": 12.50,
+    "networkFeePLN": 0.28
+  },
+  {
+    "tariffCode": "G12w",
+    "description": "Taryfa dwustrefowa weekendowa",
+    "zones": [
+      { "name": "szczyt",     "hours": "06:00-13:00, 15:00-22:00 (pn-pt)", "pricePerKwhPLN": 0.88 },
+      { "name": "poza_szczytem", "hours": "pozostałe",                      "pricePerKwhPLN": 0.46 }
+    ],
+    "monthlyFixedFeePLN": 12.50,
+    "networkFeePLN": 0.28
+  }
+]
