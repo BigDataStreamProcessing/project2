@@ -21,6 +21,7 @@ Każda partia oceniana jest w skali **100% / 50% / 0%** punktów przypisanych da
 * Oddanie na S<sub>n+2</sub> lub później nie jest punktowane. 
 * We wszystkich przypadkach złożenie poprawnie zaimplementowanej partii — niezależnie od uzyskanej oceny — jest wymagane jako warunek przystąpienia do kolejnej. Przykładowo: student, który oddał partię terminowo i otrzymał 50%, zobowiązany jest do dostarczenia poprawionej wersji na S<sub>n+x</sub> mimo że ocena pozostaje niezmieniona.
 * Istnieje możliwość oddania partii przed terminem, najwcześniej do S<sub>n-1</sub>. Pozwala to na oddanie innej jednej partii na sesji spóźnionej bez konsekwencji. 
+* Termin oddania Partii 6 jest nieprzekraczalny (brak terminu S<sub>n+1</sub>).
 
 ### Forma złożenia
 
