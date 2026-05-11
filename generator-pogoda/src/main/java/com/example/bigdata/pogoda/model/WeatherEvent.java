@@ -7,16 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
 
-/**
- * Zdarzenie strumieniowe: odczyt stacji meteorologicznej.
- *
- * Agregat L1: 10-minutowe statystyki per stacja
- *   – min/max/avg temperatury, suma opadów, max prędkość wiatru
- * Agregat L2: regionalne podsumowanie godzinowe
- *   – mapa ciepła, prognoza burzy (suma wyładowań), alert IMGW
- * Anomalia: gwałtowny spadek ciśnienia (>6 hPa/3h), temp < progu mrozu,
- *           wiatr > 25 m/s, opad > 30 mm/h
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class WeatherEvent {
 

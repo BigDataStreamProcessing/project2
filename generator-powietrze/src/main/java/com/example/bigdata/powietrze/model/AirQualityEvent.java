@@ -7,18 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
 
-/**
- * Zdarzenie strumieniowe: odczyt stacji jakości powietrza.
- *
- * Agregat L1: minutowe statystyki per stacja i sektor wiatru
- *   – avg PM2.5, avg NO2, max PM10, avg boundaryLayerHeightM
- * Agregat L2: dzienny raport per typ stacji i sektor wiatru
- * Anomalia: PM2.5 > 55 µg/m³ (próg "Niezdrowy" wg aqi_norms.json),
- *           natychmiastowy: PM2.5 > 150 µg/m³ (próg "BardzoNiezdrowy")
- *
- * Pola aqiValue, aqiLevel oraz alertActive wyznaczane są post-enrichment
- * z progów zdefiniowanych w aqi_norms.json — nie są częścią strumienia.
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class AirQualityEvent {
 

@@ -7,19 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
 
-/**
- * Zdarzenie strumieniowe: odczyt telemetrii maszyny produkcyjnej.
- *
- * Agregat L1: OEE (Overall Equipment Effectiveness) per maszyna per zmiana
- *   – Availability, Performance, Quality
- * Agregat L2: OEE per linia produkcyjna per dobę + alert Predictive Maintenance
- * Anomalia:   wibracje > progu alarmowego, temperatura łożysk > max,
- *             nagły wzrost prądu (> 30% nominału) → możliwe zacięcie narzędzia
- *
- * Uwaga: flagi alarmowe (vibrationWarn/Alarm, tempWarn/Alarm) są wyliczane
- * podczas przetwarzania strumienia po połączeniu z MachineCatalog —
- * nie są częścią surowego odczytu telemetrycznego.
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class MachineEvent {
 

@@ -7,14 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
 
-/**
- * Zdarzenie strumieniowe: tick cenowy kontraktu na giełdzie towarowej.
- *
- * Agregat L1: OHLCV (Open/High/Low/Close/Volume) per kontrakt per 1 minuta
- * Agregat L2: dzienny raport rynku – zmiana %, wolumen, open interest
- * Anomalia:   flash crash (zmiana > 3% w 1 tick), wolumen > 5× średniej,
- *             limit up/down (zatrzymanie notowań)
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class CommodityTickEvent {
 

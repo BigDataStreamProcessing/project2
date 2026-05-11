@@ -8,14 +8,6 @@ import lombok.NoArgsConstructor;
 import java.time.Instant;
 import java.util.List;
 
-/**
- * Zdarzenie strumieniowe: zamówienie/transakcja e-commerce.
- *
- * Agregat L1: GMV (Gross Merchandise Value) per kategoria per 1 minuta
- * Agregat L2: dzienny dashboard sprzedaży – top produkty, revenue, konwersja
- * Anomalia:   fraudScore > progu, wartość zamówienia > 5× średniej klienta,
- *             wiele zamówień z jednego IP w < 60 s
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class OrderEvent {
 

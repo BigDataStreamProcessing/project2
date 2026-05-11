@@ -7,16 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.Instant;
 
-/**
- * Zdarzenie strumieniowe: wjazd/wyjazd/status miejsca parkingowego.
- *
- * Agregat L1: aktywność per strefa w oknie 1-minutowym
- *   – liczba przyjazdów, liczba wyjazdów, średni czas postoju
- * Agregat L2: dzienny raport per typ strefy
- *   – łączna liczba przyjazdów, średni czas postoju, rozkład czasów postoju (KLL)
- * Anomalia: czas postoju przekraczający maxStayHours strefy — wykrywany
- *           po wzbogaceniu zdarzeń EXIT o dane słownikowe.
- */
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
 public class ParkingEvent {
 
